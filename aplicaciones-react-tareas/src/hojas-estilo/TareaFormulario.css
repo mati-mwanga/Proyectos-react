@@ -1,0 +1,33 @@
+/* Estilos para el formulario de tareas */
+.tarea-formulario {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Campo de Texto */
+.tarea-input {
+  width: 350px;
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #00471b;
+  font-size: 18px;
+  background-color: white;
+  margin-right: 10px;
+  outline: none;
+}
+
+/* Botón agregar Tarea */
+.tarea-boton {
+  padding: 16px;
+  border-radius: 0 4px 4px 0;
+  border: none;
+  background: #00471b;
+  color: white;
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  cursor: pointer;
+  outline: none;
+  text-transform: capitalize;
+}
